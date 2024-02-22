@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+  }
+#fondo{
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+h1{
+    margin-left: 2.5rem;
+}
+header{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    
+}
+nav{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+    
+
+    
+}
+.frase{
+    position: relative;
+    z-index: 9999;
+    color:white;
+    bottom: 10.625rem;
+    margin-left: 3.125rem;
+    font-size: 1.875rem;
+}
+ul{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    align-items: s;
+    justify-content: space-between;
+    width:43.75rem;
+    color: #03A696;
+    align-content: center;
+    justify-content: space-around;
+    
+    list-style-type: none;
+   
+}
+footer p i:nth-child(1){
+    font-size: 4.375rem;
+    position: relative;
+    bottom: 2.188rem;
+
+
+}
+
+#circulorojo{
+    position: relative;
+    bottom: 4.938rem;
+    right:5.125rem ;
+}
+
+
+footer p i:nth-child(2){
+    font-size: 40px;
+    color:white;
+    position: relative;
+    bottom: 2.813rem;
+    right: 3.438rem;
+    z-index: 999;
+}
+.flecha{
+gap:0.938rem;
+display: inline-block;
+width: 0.625rem;
+height: auto;
+transform: rotate(90deg) translateY(-10px)
+
+}
+
+.color1{
+    color:#03A696
+
+}
+.color2{
+    color:pink
+}
+.imagen{
+  background-color: #2694BF;
+  z-index: 9;
+  
+}
+section{
+    display: flex;
+    justify-content: flex-end;
+    transform:translate(-700px , -760px) ;
+    position: relative;
+    top:70px
+}
+
+
+
+
+#regalo{
+    font-size: 1.25rem;
+    position: relative;
+    top:0px;
+    right: 0.5rem;
+
+}
+.footer{
+    background-color: pink;
+    color: white;
+    padding: 1.563rem;
+    border-radius: 3.125rem;
+    margin-left: 1.563rem;
+    font-weight: bold;
+ 
+    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 1.6rem;
+    padding-top: 3.125rem;
+    background-color: skyblue;
+}
+.emoticono1{
+    
+    display: flex;
+    transform: translateX(20rem);}
+    main{
+        background-color: skyblue;
+    }
+    
+    
+.emoticono2{
+    
+    display:flex ;
+    transform: translateX(10rem);
+
+}
+.uno{
+    color:white;
+    position: relative;
+    bottom:5rem;
+    right: 4.375rem;
+    z-index: 9999;
+}
+@media screen and (max-width: 480px){
+    ul{
+        display: none
+
+    }
+    .frase{
+        position: relative;
+        top:0.5rem;
+        font-size: 0.7em;}
+
+
+}
+@media screen and (min-width: 480px) and (max-width:780px){
+    ul{
+        display: block; 
+    position: fixed;
+    top: 5rem;
+    margin-bottom: 50px;
+    background-color: skyblue;
+    width: 200px;
+    transition: left 1s ease; 
+    }
+    .frase{
+        display: flex;
+        font-size: 80%;
+        top:0rem
+    };
+   
+
+} 

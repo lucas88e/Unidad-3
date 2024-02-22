@@ -1,0 +1,74 @@
+id ="fondo">
+    <div class="textoprincipal" >
+    <p> <span class="text1">SPF</span></p> 
+    <p><span class="text2">50<sup class="superindice">+</sup></span></p>
+    <p> <span class="text3">NUEVO</span><span class="text4"> PA ++++</span></p>
+     <span class="text5">PROTECTOR
+    <p> SOLAR</span></p>
+    <p><span class="subrayado"> SUN SERUM</span> </p>
+    <p><span class="text6">EL 2DO PODUCTO PLANET SKIN YA ESTA AQUI</span></p>
+    <!-- <P><span class="text7"> PROTECCION SOLAR SIN RASTRO BLANCO, DISEÑADA PARA USAR LOS 365 DÍAS DEL AÑO</span></P> -->
+    </div>
+    <section><media class="imagen">
+        <img src ="img/planet-skin-protector-solar-clear-sun-serum-spf-50-pa-1-79985_preview_rev_1.png" width="550" height="800">
+    </media></section>
+
+<footer>
+    <p><span class="footer" >Planet Skin Club</span></p>
+ <p>icono</p>
+
+
+ 
+.text5{
+    font-size: 25px;
+}
+.text6{
+    font-size: 18px;
+}
+.text7 {
+    font-size: 2.188px;
+    position: relative;
+    z-index: 9999;}
+
+.subrayado{
+    background-color: white;
+    color:skyblue;
+    padding: 8px;
+    font-size: 50px;
+    border-radius: 25px;
+}
+.textoprincipal{
+    margin: 50px;
+    color:white
+}
+.text1{
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 70px;
+    left:25px
+    
+}
+.text2{
+    font-size: 200px;
+    color: white;
+    font-weight: bold;
+}
+
+.superindice{
+    transform: translate(-5px , -500px);
+    font-size: 60px;
+    position: relative;
+    bottom: 50px;
+    right: 30px;
+   
+}
+.text3{
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px
+}
+.text4{
+    font-size: 30px;
+}
