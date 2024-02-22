@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    color: black;
+    background-color: white;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightcoral;
+    justify-items: center;
+    position: relative;
+    top:10rem;
+   h1{
+    color:gold
+   }
+    
+  }
+  section{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    background-color: lightsalmon;
+    padding: 30px;
+    border-radius: 10px 10px ;
+    border:2px solid red
+  }
+
+  #agregar{
+    background-color: black;
+    color: gold;
+    font-weight: bold;
+
+  }
+  ul{
+    color:lightseagreen;
+    font-weight: bold;
+  }
