@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+.boton-jugada {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#resultados {
+  font-size: 20px;
+  margin: 20px 0;
+}
+body{
+  background-color: #3498db;
+}
+.boton-jugada{
+  font-weight: bold;
+  border-radius: 10px 10px ;
+  background-color: red;
+  
+
+}
+.boton-jugada:hover{
+  transform: scale(1.1);
+  transition: all 0.3 ease;
+  
+}
+
+#resultados {
+font-size:20 px;
+border: 1px solid red;
+background-color: greenyellow;
+width:fit-content;
+margin: auto;
+padding: 10px;
+position: relative;
+top:10px;
+
+}
